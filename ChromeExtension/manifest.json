@@ -10,8 +10,11 @@
 		"default_popup" : "popup.html"
 	},
 	"content_scripts": [{
-		"matches": ["http://*/","https://*/"],
-    	/*"css": ["mystyles.css"],*/
+		"matches": ["http://*/*","https://*/*"],
+    	/*"css": ["css/style.css"],*/
      	"js": ["js/jquery.min.js","content_scripts.js"]
-	}]
+	}],
+	"web_accessible_resources": [
+       "css/style.css"
+     ]
 }

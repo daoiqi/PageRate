@@ -1,0 +1,13 @@
+.daoiqi_pagerate{
+	
+}
+.daoiqi_pagerate_rankButton{
+	font-size: 12px;
+	width : 2em;
+	height: 2em;
+	right: 50px;
+	top: 50%;
+	position: fixed;
+	cursor: pointer;
+	background: rgba(153, 3, 201, 0.41);
+}
