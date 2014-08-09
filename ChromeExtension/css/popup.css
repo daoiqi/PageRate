@@ -1,0 +1,35 @@
+html{
+    height: 3em;
+    background: #56A0FF;
+    color : white;
+}
+a{
+    text-decoration: none;   
+}
+.popup_body{
+    margin: 0;
+    padding: 0;
+    height: 3em;
+}
+
+.popup_ratediv{    
+}
+
+.popup_ratediv .popup_rate_menu, .popup_other_menu{
+    margin: 0;
+    padding: 0;
+}
+
+.popup_ratediv .popup_rate_menu li , .popup_other_menu li{
+    list-style: none;
+    width : 4em;
+    padding :0.2em 0.5em;
+    cursor: pointer;
+}
+.popup_ratediv .popup_rate_menu li:hover , .popup_other_menu li:hover{
+    background: rgba(29, 62, 238, 0.6);
+}
+
+.block_line{
+    border: gray 1px solid;
+}
